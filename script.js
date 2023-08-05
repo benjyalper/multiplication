@@ -1,7 +1,8 @@
 
 $(".grid-item").on("click", function(){
+    if (this) {
     $(this).addClass('animate__flipInY');
-    $(this).css('background-color', '#00DFA2').css('color', "#FF0060").css('border', '3px solid #0079FF');
+    $(this).css('background-color', '#00DFA2').css('color', "#FF0060").css('border', '3px solid #0079FF').css('padding', '5px');;
     var nthChild = $(this).index() + 1;
     if (nthChild === 12) {
         $(this).text("4");
@@ -163,8 +164,10 @@ $(".grid-item").on("click", function(){
         $(this).text("80");
     } else if (nthChild === 99) {
         $(this).text("90");
+    } 
+    } else {
+            $('.grid-item').css('background-color', 'blue');
     }
-    // $(".grid-item").css('background-color', 'blue')
 });
 
 
