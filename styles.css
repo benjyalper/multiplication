@@ -24,3 +24,7 @@ h1 {
 .what {
     background-color: antiquewhite;
 }
+
+.special {
+    visibility: hidden;
+}
