@@ -17,8 +17,8 @@ h1 {
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: repeat(10, 1fr);
     gap: 3px;
-    padding-left: 30vw;
-    padding-right: 30vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
 }
 
 .grid-item {
