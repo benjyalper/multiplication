@@ -164,5 +164,8 @@ $(".grid-item").on("click", function(){
     } else if (nthChild === 99) {
         $(this).text("90");
     }
+    // $(".grid-item").css('background-color', 'blue')
 });
+
+
 
