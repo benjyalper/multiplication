@@ -18,6 +18,7 @@ h1 {
 
 .grid-item {
     border: 2px solid darkblue;
+    background-color: aquamarine;
 }
 
 .what {
