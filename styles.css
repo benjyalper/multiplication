@@ -19,3 +19,7 @@ h1 {
 .grid-item {
     border: 2px solid darkblue;
 }
+
+.what {
+    background-color: antiquewhite;
+}
