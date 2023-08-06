@@ -27,7 +27,7 @@ $(".grid-item").on("click", function(){
     } else if (nthChild === 23) {
         $(this).text("9");
     } else if (nthChild === 24) {
-        $(this).text("22");
+        $(this).text("12");
     } else if (nthChild === 25) {
         $(this).text("15");
     } else if (nthChild === 26) {
@@ -43,7 +43,7 @@ $(".grid-item").on("click", function(){
     } else if (nthChild === 32) {
         $(this).text("8");
     } else if (nthChild === 33) {
-        $(this).text("22");
+        $(this).text("12");
     } else if (nthChild === 34) {
         $(this).text("16");
     } else if (nthChild === 35) {
