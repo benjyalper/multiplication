@@ -165,6 +165,7 @@ $(".grid-item").on("click", function(){
         $(this).text("90");
     } else if (nthChild === 100) {
         $(this).text("100");
+        }
 });
 
 
